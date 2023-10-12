@@ -8,7 +8,7 @@ We will first create a virtual machine on Microsoft Azure, choosing Windows 10 P
 Configuring and running this lab will help to develop our comprehension of how to set up, configure and operate a typical ticketing system environment, along with building our confidence in working tickets to resolve technical support requests, using a Remote Desktop Connection, introducing us to using a webserver, and finally using a cloud platform for our computing needs.
 </br>
 
-<h2>Languages and Utilities Used</h2>
+<h2>Utilities Used</h2>
 
 - <b>Microsoft Azure</b>
 - <b>Microsoft Remote Desktop Connection</b>
@@ -17,7 +17,7 @@ Configuring and running this lab will help to develop our comprehension of how t
 <h2>Environments Used </h2>
 
 - <b>Windows 10 Pro</b> (22H2)
-- <b>Microsoft Internet Information Services</b>
+- <b>Microsoft's Internet Information Services</b>
 - <b>OsTicket</b>
 
 <h2>Program walk-through:</h2>
