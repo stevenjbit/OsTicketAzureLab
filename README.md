@@ -1,23 +1,25 @@
 <h1>OsTicket Home Lab on Azure</h1>
 
 <h2>Description</h2>
-In this lab we will create a ticketing system environment on a local webserver that is running on a Virtual Machine in a cloud platform. For this project, we will be utilizing OsTicket as our ticketing software and Microsoft's Azure, Windows 10 Pro and Internet Information Services as our environment in which we set up our ticketing system. By this end, this lab will resemble any ticketing system utilized for the technical support operations of an IT department and can serve as an environment to explore and learn the parameters of working a ticket for an IT Help Desk Technician.
+In this lab we will install a ticketing system on a local server that is running on a Windows 10 Pro virtual machine. For this project, we will be utilizing OsTicket as our ticketing software and Microsoft's Azure as our cloud platform to spin up our virtual machine. We will also utilize Internet Information Services (IIS), MySQL and Heidi SQL to set up our local server so that we can access our ticketing system from a web browser like a portal. By the end of this lab, our setup will resemble any ticketing system utilized for the technical support operations of an IT department and can serve as an environment to explore and learn the parameters of working a ticket for an IT Help Desk Technician. 
 <br><br>
-We will first create a virtual machine on Microsoft Azure, choosing Windows 10 Pro as our Operating System. Then, we will access this VM from our own personal computer through Microsoft's Remote Desktop Connection. After we are connected, we will set up and configure a local server to act as a host for our ticketing system application, using Microsoft Internet Information Services. This will allow us to create a webpage to act as a portal of sorts for our ticketing system. Finally, we will install OsTicket, and configure it to resemble a standard environment for a ticketing system, creating users who have issues and access the portal to send them to the Help Desk, technical support agents who respond to the tickets, and a system administrator who manages Service Level Agreements (SLAs), creates teams of Help Desk Agents, and assigns tickets to agents as they come in. 
+We will first create a virtual machine on Microsoft Azure, choosing Windows 10 Pro as our Operating System which will enable us to set up a local server. Then, we will access this VM from our own personal computer through Microsoft's Remote Desktop Connection. After we are connected, we will set up and configure a local server to act as a host for our ticketing system application, using IIS, MySQL and Heidi SQL. This will allow us to create a webpage to act as our portal. Finally, we will install OsTicket, and configure it to resemble a standard environment for a ticketing system. We will achieve this by creating:
+- Users who have issues and access the portal to create tickets
+- Technical support agents who respond to the tickets and close them out
+- A system administrator who manages Service Level Agreements (SLAs), creates teams of Help Desk Agents assigned to different IT areas, and assigns the tickets to agents as they come in. 
 <br><br>
 Configuring and running this lab will help to develop our comprehension of how to set up, configure and operate a typical ticketing system environment, along with building our confidence in working tickets to resolve technical support requests, using a Remote Desktop Connection, introducing us to using a webserver, and finally using a cloud platform for our computing needs.
 </br>
 
-<h2>Utilities Used</h2>
+<h2>Software and Utilities Used</h2>
 
 - <b>Microsoft Azure</b>
-- <b>Microsoft Remote Desktop Connection</b>
-
-
-<h2>Environments Used </h2>
-
+- <b>Remote Desktop Connection</b>
 - <b>Windows 10 Pro</b> (22H2)
-- <b>Microsoft's Internet Information Services</b>
+- <b>Internet Information Services (IIS)</b>
+- <b>MySQL</b>
+- <b>Heidi SQL</b>
+- <b>Visual C++ Redistributible</b>
 - <b>OsTicket</b>
 
 <h2>Program walk-through:</h2>
