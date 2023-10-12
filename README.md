@@ -1,4 +1,4 @@
-<h1>OsTicket Home Lab on Azure</h1>
+<h1>OsTicket Lab on Azure</h1>
 
 <h2>Description</h2>
 In this lab we will install a ticketing system on a local server that is running on a Windows 10 Pro virtual machine. For this project, we will be utilizing OsTicket as our ticketing software and Microsoft's Azure as our cloud platform to spin up our virtual machine. We will also utilize Internet Information Services (IIS), MySQL and Heidi SQL to set up our local server so that we can access our ticketing system from a web browser like a portal. By the end of this lab, our setup will resemble any ticketing system utilized for the technical support operations of an IT department and can serve as an environment to explore and learn the parameters of working a ticket for an IT Help Desk Technician. 
