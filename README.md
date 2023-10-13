@@ -148,50 +148,23 @@ We now have a nicely configured help desk to test out. Let's create a few ticket
  
  </details>
  
-7. 
+7. Now we can create a ticket as a user as see what being a Technical Support agent is really like! Logging in as one of our users, let's send a request describing a serious, SEV-A event, where the mobile banking website is down. We will also create a few other tickets with less severe SEV-B and SEV-C type events, namely a department being unable to access their Adobe PDF reader, and a request for new equipment. When we log out as a user and log back in as our Admin, we can see the option to delegate tickets to other agents, or take measures necessary as an Admin. Logging in as an agent, we can see the tickets that have been assigned to us. We can also practice reponding professionally to the users and our colleagues, detailing how a ticket might be passed off with a "warm handoff" via telephone. All these are great examples of the ticket lifestyle and working tickets, and closing them out. When we brose "Closed", we can see our tickets after they are closed. These can be useful for a new Help Desk agent to study to see how things are done at a corporation, to see some common problems that might come up and how they are resolved. Very cool!
  
  <details>
   
   <summary>Expand images</summary>
   
-<img src="" height="80%" width="80%" />
-<img src="" height="80%" width="80%" />
-<img src="" height="80%" width="80%" />
-<img src="" height="80%" width="80%" />
-<img src="" height="80%" width="80%" />
-<img src="" height="80%" width="80%" />
+<img src="https://i.imgur.com/vx8yHBh.jpg" height="80%" width="80%" />
+<img src="https://i.imgur.com/bz6cGSR.jpg" height="80%" width="80%" />
+<img src="https://i.imgur.com/NXYN1Cr.jpg" height="80%" width="80%" />
+<img src="https://i.imgur.com/B1cteYg.jpg" height="80%" width="80%" />
+<img src="https://i.imgur.com/lhKSFxN.jpg" height="80%" width="80%" />
+<img src="https://i.imgur.com/vzJrGCn.jpg" height="80%" width="80%" />
+<img src="https://i.imgur.com/6vLXlLT.jpg" height="80%" width="80%" />
+<img src="https://i.imgur.com/qieyGJd.jpg" height="80%" width="80%" />
 
  </details>
  
- 8.  
- 
- <details>
- 
- <summary>Expand images</summary>
- 
-<img src="" height="80%" width="80%" />
-<img src="" height="80%" width="80%" />
-<img src="" height="80%" width="80%" />
-<img src="" height="80%" width="80%" />
-<img src="" height="80%" width="80%" />
-<img src="" height="80%" width="80%" />
-
-</details>
-
-9. 
-
-<details>
- 
- <summary>Expand images</summary>
- 
- <img src="" height="80%" width="80%" />
-<img src="" height="80%" width="80%" />
-<img src="" height="80%" width="80%" />
-<img src="" height="80%" width="80%" />
-<img src="" height="80%" width="80%" />
-<img src="" height="80%" width="80%" />
- 
- </details>
  
  <br><br>Our lab is now hopefully functioning just as our initial diagram, and we can explore our set up!
 
