@@ -125,19 +125,26 @@ Configuring and running this lab will help to develop our comprehension of how t
 
 </details>
 
-
-6. 
+6. Now that OsTicket is installed, we can login through the portal using our admin credentials we chose earlier. Entering it, we see the first "ticket" is a welcome message. The first step in our administrative tasks is to create roles. Roles are the permissions granted to Agents per Department that they have access to. Let's create a role called "Supreme Admin" with all the permissions available. Then, we can create a new department. Departments are where tickets are routed through. We will create one called "System Administrators", which we can set to receive all tickets. Next we can create Teams. Teams allow you to pull Agents from different Departments and organize them to handle a specific issue, so for example, we could create a team of Tier II agents who are the Subject Matter Experts (SMEs) from different departments. Let's do that, as a Level I Support Team is already created. Now we can create some agents. Agents are given access to the help desk with the intent to respond and resolve the tickets. We'll create Jane and John, and assign them certain permissions. Our next step is to create some users, who will represent customers or perhaps employees from other departments of a company. Users are the ticket owners of the tickets in the help desk. When a ticket is created, their email address will be associated with the ticket for communication purposes. For our second last step we can create a Service Level Agreement (SLA) plan. The purpose of the SLA Plan is to provide a length of time in which the help desk Administrator expects tickets to be closed. We will create SEV-A, SEV-B and SEV-C with typical response periods depending on the severity of the incident: from 24/7 within an hour, to 24/7 within 4 hours to 9-5 business days within 8 hours, respectively. Finally, we will create some "Help Topics", which are intended for users to select the type of issue they are experiencing, helping to streamline the help desk operations. 
+<br><br>
+We now have a nicely configured help desk to test out. Let's create a few tickets and see how to work a ticket as a help desk technician!
 
 <details>
  
  <summary>Expand images</summary>
  
-<img src="" height="80%" width="80%" />
-<img src="" height="80%" width="80%" />
-<img src="" height="80%" width="80%" />
-<img src="" height="80%" width="80%" />
-<img src="" height="80%" width="80%" />
-<img src="" height="80%" width="80%" />
+<img src="https://i.imgur.com/F3wqaB1.jpg" height="80%" width="80%" />
+<img src="https://i.imgur.com/2QtwUCJ.jpg" height="80%" width="80%" />
+<img src="https://i.imgur.com/e1myDBV.jpg" height="80%" width="80%" />
+<img src="https://i.imgur.com/6eac90w.jpg" height="80%" width="80%" />
+<img src="https://i.imgur.com/Tv5qWdR.jpg" height="80%" width="80%" />
+<img src="https://i.imgur.com/A8AHYYZ.jpg" height="80%" width="80%" />
+<img src="https://i.imgur.com/NCpTHsp.jpg" height="80%" width="80%" />
+<img src="https://i.imgur.com/qYtqiX2.jpg" height="80%" width="80%" />
+<img src="https://i.imgur.com/SDuf2IX.jpg" height="80%" width="80%" />
+<img src="https://i.imgur.com/VzwjbPY.jpg" height="80%" width="80%" />
+<img src="https://i.imgur.com/7u5QPiI.jpg" height="80%" width="80%" />
+<img src="https://i.imgur.com/Isazh8C.jpg" height="80%" width="80%" />
  
  </details>
  
