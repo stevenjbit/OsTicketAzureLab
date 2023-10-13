@@ -66,47 +66,62 @@ Configuring and running this lab will help to develop our comprehension of how t
 
 </details>
 
-3. 
+3. After setting up IIS, we can download and install PHP Manager for IIS and the Apache rewrite module. Then, after downloading PHP 7.3.8, in the C: drive of our VM, create the directory C:\PHP, and unzip the contents into that folder. Then we will download and install Microsoft Visual C++ redistributable. Next, download MySQL Server 5.5 and launch the intallation wizard, choosing a typical setup and configuration, and choosing an easy-to-remember password. After all that, we can open IIS as an Administrator, register PHP from within IIS, and reload IIS, stopping and restarting the server. Our local server should now be running and we can install OsTicket.
 
 <details>
 
 <summary>Expand images</summary>
 
-<img src="" height="80%" width="80%" />
-<img src="" height="80%" width="80%" />
-<img src="" height="80%" width="80%" />
-<img src="" height="80%" width="80%" />
-<img src="" height="80%" width="80%" />
-<img src="" height="80%" width="80%" />
+<img src="https://i.imgur.com/lfB20ti.jpg" height="80%" width="80%" />
+<img src="https://i.imgur.com/K2cr2Je.jpg" height="80%" width="80%" />
+<img src="https://i.imgur.com/8lw6bJE.jpg" height="80%" width="80%" />
+<img src="https://i.imgur.com/GkM7LaG.jpg" height="80%" width="80%" />
+<img src="https://i.imgur.com/DuCVa9k.jpg" height="80%" width="80%" />
+<img src="https://i.imgur.com/2TuVoWD.jpg" height="80%" width="80%" />
+<img src="https://i.imgur.com/ggXfZfV.jpg" height="80%" width="80%" />
+<img src="https://i.imgur.com/h5QdzB7.jpg" height="80%" width="80%" />
+<img src="https://i.imgur.com/C8x4cWs.jpg" height="80%" width="80%" />
+<img src="https://i.imgur.com/pinOt39.jpg" height="80%" width="80%" />
+<img src="https://i.imgur.com/kTUYPku.jpg" height="80%" width="80%" />
+<img src="https://i.imgur.com/4NPrMGG.jpg" height="80%" width="80%" />
+<img src="https://i.imgur.com/hsXnkA1.jpg" height="80%" width="80%" />
+<img src="https://i.imgur.com/N4OWFaP.jpg" height="80%" width="80%" />
+<img src="https://i.imgur.com/nI8LmQb.jpg" height="80%" width="80%" />
 
 </details>
 
-4. 
+4. To install OsTicket (in this case v1.15.8), download the software, and from the download folder, extract and copy the "upload" folder into C:\inetpub\wwwroot. Within that folder, rename "upload" to "osTicket". Reload IIS after that, by opening it up, stopping then restarting the server. Next, go to sites -> Default -> osTicket, and on the right, click "Browse *:80". This will load the software to run on our server. However, as we can see on our browser, some necessary extensions for OsTicket are not enabled, so we will change that. Back on IIS, click on sites -> Default -> osTicket, double click "PHP Manager", click "Enable or disable an extension" and enable php_impad.dll, php_intl.dll, php_opcache.dll. After refreshing the osTicket site in our browser, we can see some changes. Finally, we will rename ost-config.php by changing in file explorer C:\inetpub\wwwroot\osTicket\include\ost-sampleconfig.php to C:\inetpub\wwwroot\osTicket\include\ost-config.php. Then right clicking on this file, we will change the permissions by disabling inheritance -> Remove All and add New Permissions -> Everyone -> All.  
 
 <details>
 <summary>Expand images</summary>
 
-<img src="" height="80%" width="80%" />
-<img src="" height="80%" width="80%" />
-<img src="" height="80%" width="80%" />
-<img src="" height="80%" width="80%" />
-<img src="" height="80%" width="80%" />
-<img src="" height="80%" width="80%" />
+<img src="https://i.imgur.com/Fr1jNi4.jpg" height="80%" width="80%" />
+<img src="https://i.imgur.com/JfsAgoc.jpg" height="80%" width="80%" />
+<img src="https://i.imgur.com/rkWUYx8.jpg" height="80%" width="80%" />
+<img src="https://i.imgur.com/7K5Sr2D.jpg" height="80%" width="80%" />
+<img src="https://i.imgur.com/MR0qnHg.jpg" height="80%" width="80%" />
+<img src="https://i.imgur.com/T5uLtco.jpg" height="80%" width="80%" />
+<img src="https://i.imgur.com/BNxouS0.jpg" height="80%" width="80%" />
+<img src="https://i.imgur.com/lMZ3vkA.jpg" height="80%" width="80%" />
+<img src="https://i.imgur.com/aT2rekg.jpg" height="80%" width="80%" />
 
 </details>
 
-5. 
+5. Now we can finalize the setup of OsTicket on our server. First we will continue with the install of OsTicket on our browser by inputting the Name of "Helpdesk" and a default email. Then we will download and install HeidiSQL (our version was 12.3.0.6589), open it, create a new session with "root/Password12345", connect to the session, and create a database called "osTicket". Then we can go back to the browser and finalize OsTicket. Input "osTicket" in MySQL database, "root" in MySQL Username and "Password12345" (or whatever you like) in MySQL Password, and click "Install Now!". Finally our setup of OsTicket is ready to explore (hopefully with no errors!), so we should just clean it up by deleting C:\inetpub\wwwroot\osTicket\setup and on C:\inetpub\wwwroot\osTicket\include\ost-config.php set permissions to "Read" only. 
 
 <details>
 
 <summary>Expand images</summary>
 
-<img src="" height="80%" width="80%" />
-<img src="" height="80%" width="80%" />
-<img src="" height="80%" width="80%" />
-<img src="" height="80%" width="80%" />
-<img src="" height="80%" width="80%" />
-<img src="" height="80%" width="80%" />
+<img src="https://i.imgur.com/3b5zjf3.jpg" height="80%" width="80%" />
+<img src="https://i.imgur.com/NPJOrDD.jpg" height="80%" width="80%" />
+<img src="https://i.imgur.com/2RzdHrk.jpg" height="80%" width="80%" />
+<img src="https://i.imgur.com/PPt2yhw.jpg" height="80%" width="80%" />
+<img src="https://i.imgur.com/ErFZ4yM.jpg" height="80%" width="80%" />
+<img src="https://i.imgur.com/2spSyi9.jpg" height="80%" width="80%" />
+<img src="https://i.imgur.com/I6rfvyZ.jpg" height="80%" width="80%" />
+<img src="https://i.imgur.com/qHeYh1O.jpg" height="80%" width="80%" />
+<img src="https://i.imgur.com/h7MqZkt.jpg" height="80%" width="80%" />
 
 </details>
 
