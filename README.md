@@ -1,3 +1,5 @@
+<img src="https://i.imgur.com/X2hdpTg.png" height="80%" width="80%" />
+
 <h1>OsTicket Lab on Azure</h1>
 
 <h2>Description</h2>
