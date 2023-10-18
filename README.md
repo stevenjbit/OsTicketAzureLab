@@ -29,14 +29,6 @@ Configuring and running this lab will help to develop our comprehension of how t
 
 <h2>Program walk-through:</h2>
 
-<details>
-
-<summary>Network and VM Diagram</summary>
-
-<img src="" height="80%" width="80%" />
-
-
-</details>
 
 1. Our first step in the lab will be to create a Resource group on Azure, and then create a Virtual Machine running Windows 10 pro within that resource group. After entering the parameters we want, with an easy to remember user name and password (suitable for our testing environment, not in real usage where passwords should be more complex) and reviewing the set up, press create and allow some time for the machine to spin up. After that is done, on our personal computer, we will open Remote Desktop Connection (whether Windows or Mac) and enter the public IP address we copied from the overview screen of our VM. A screen will pop asking us to connect anyway, where we will hit yes, and then another one will ask us for our credentials. After we adjust the privacy settings on Windows required for the first time use, we will be into a standard Windows desktop environment, ready for our next step. 
 
@@ -168,7 +160,7 @@ We now have a nicely configured help desk to test out. Let's create a few ticket
  </details>
  
  
- <br><br>Our lab is now hopefully functioning just as our initial diagram, and we can explore our set up!
+ <br><br>Our lab is now hopefully functioning well as a ticketing system, and we can explore our set up!
 
 </br>
 
