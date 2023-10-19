@@ -27,7 +27,7 @@ Configuring and running this lab will help to develop our comprehension of how t
 - <b>Rewrite Module</b>
 - <b>MySQL 5.5.62</b>
 - <b>Heidi SQL 12.3.0.6589</b>
-- <b>Visual C++ Redistributible </b>
+- <b>Visual C++ Redistributible x86 - 14.34.31931 </b>
 - <b>OsTicket v1.15.8</b>
 
 <h2>Program walk-through:</h2>
