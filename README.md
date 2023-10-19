@@ -22,10 +22,13 @@ Configuring and running this lab will help to develop our comprehension of how t
 - <b>Remote Desktop Connection</b>
 - <b>Windows 10 Pro</b> (22H2)
 - <b>Internet Information Services (IIS)</b>
-- <b>MySQL</b>
-- <b>Heidi SQL</b>
-- <b>Visual C++ Redistributible</b>
-- <b>OsTicket</b>
+- <b>PHP Manager for IIS version 1.5.0</b>
+- <b>PHP 7.3.8</b>
+- <b>Rewrite Module</b>
+- <b>MySQL 5.5.62</b>
+- <b>Heidi SQL 12.3.0.6589</b>
+- <b>Visual C++ Redistributible </b>
+- <b>OsTicket v1.15.8</b>
 
 <h2>Program walk-through:</h2>
 
