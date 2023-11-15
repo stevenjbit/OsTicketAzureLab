@@ -1,5 +1,7 @@
 <img src="https://i.imgur.com/X2hdpTg.png" height="80%" width="80%" />
 
+[YouTube Walkthrough for setting up OsTicket on VirtualBox](https://www.youtube.com/watch?v=e_XvD7m5fho)
+
 <h1>OsTicket Lab on Azure</h1>
 
 <h2>Description</h2>
